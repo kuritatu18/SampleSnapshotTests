@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1つ目の画面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uin-gc-nRR">
-                                <rect key="frame" x="140.5" y="433.5" width="133" height="29"/>
+                                <rect key="frame" x="140.5" y="463.5" width="133" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="3Yo-vY-Xoi"/>
                                 </constraints>
@@ -28,7 +28,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="uin-gc-nRR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k4a-gs-26G"/>
-                            <constraint firstItem="uin-gc-nRR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pcV-7A-G0D"/>
+                            <constraint firstItem="uin-gc-nRR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="t9x-si-rI5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -11,7 +11,6 @@ import XCTest
 import FBSnapshotTestCase
 
 class DashboardViewControllerTests: SnapshotTestCase {
-
     func testDashboardSnapshot() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "ViewController")

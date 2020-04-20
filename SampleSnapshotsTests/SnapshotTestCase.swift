@@ -15,6 +15,7 @@ class SnapshotTestCase: FBSnapshotTestCase {
     override func setUp() {
         super.setUp()
         recordMode = ProcessInfo().environment["SNAPSHOT_TEST_RECORD_MODE"] == "true"
+//        recordMode = true
         fileNameOptions = [.device, .OS, .screenSize, .screenScale]
 
         window = UIWindow(frame: UIScreen.main.bounds)
