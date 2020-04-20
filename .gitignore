@@ -2,6 +2,7 @@
 build/
 DerivedData/
 xcuserdata/
+Pods/
 
 ## Obj-C/Swift specific
 *.hmap
