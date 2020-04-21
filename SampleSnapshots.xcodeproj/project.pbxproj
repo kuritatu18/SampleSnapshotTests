@@ -14,7 +14,6 @@
 		1728EF32244D5CF900E90033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1728EF30244D5CF900E90033 /* Main.storyboard */; };
 		1728EF34244D5CFB00E90033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1728EF33244D5CFB00E90033 /* Assets.xcassets */; };
 		1728EF37244D5CFB00E90033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1728EF35244D5CFB00E90033 /* LaunchScreen.storyboard */; };
-		1728EF42244D5CFB00E90033 /* SampleSnapshotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728EF41244D5CFB00E90033 /* SampleSnapshotsTests.swift */; };
 		1728EF4D244D611200E90033 /* SnapshotTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728EF4C244D611200E90033 /* SnapshotTestCase.swift */; };
 		1728EF50244D618000E90033 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728EF4F244D618000E90033 /* ViewControllerTests.swift */; };
 		1728EF53244E80A100E90033 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1728EF55244E80A100E90033 /* Localizable.strings */; };
@@ -41,7 +40,6 @@
 		1728EF36244D5CFB00E90033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1728EF38244D5CFB00E90033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1728EF3D244D5CFB00E90033 /* SampleSnapshotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleSnapshotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1728EF41244D5CFB00E90033 /* SampleSnapshotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSnapshotsTests.swift; sourceTree = "<group>"; };
 		1728EF43244D5CFB00E90033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1728EF4C244D611200E90033 /* SnapshotTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestCase.swift; sourceTree = "<group>"; };
 		1728EF4F244D618000E90033 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				1728EF4E244D616600E90033 /* Tests */,
-				1728EF41244D5CFB00E90033 /* SampleSnapshotsTests.swift */,
 				1728EF43244D5CFB00E90033 /* Info.plist */,
 				1728EF4C244D611200E90033 /* SnapshotTestCase.swift */,
 			);
@@ -332,7 +329,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1728EF50244D618000E90033 /* ViewControllerTests.swift in Sources */,
-				1728EF42244D5CFB00E90033 /* SampleSnapshotsTests.swift in Sources */,
 				1728EF4D244D611200E90033 /* SnapshotTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
