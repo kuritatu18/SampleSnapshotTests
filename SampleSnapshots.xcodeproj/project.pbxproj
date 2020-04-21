@@ -47,6 +47,7 @@
 		1728EF4F244D618000E90033 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		1728EF54244E80A100E90033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1728EF56244E80B800E90033 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1728EF57244E83AA00E90033 /* SampleSnapshots.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleSnapshots.xctestplan; sourceTree = "<group>"; };
 		28443147909265A4475786B6 /* Pods-SampleSnapshots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSnapshots.release.xcconfig"; path = "Target Support Files/Pods-SampleSnapshots/Pods-SampleSnapshots.release.xcconfig"; sourceTree = "<group>"; };
 		321D9249BA730A73D4E15A80 /* Pods_SampleSnapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleSnapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DAB941A2B1FD29B4998BC6 /* Pods-SampleSnapshots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSnapshots.debug.xcconfig"; path = "Target Support Files/Pods-SampleSnapshots/Pods-SampleSnapshots.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +103,7 @@
 				1728EF2C244D5CF800E90033 /* SceneDelegate.swift */,
 				1728EF2E244D5CF800E90033 /* ViewController.swift */,
 				1728EF30244D5CF900E90033 /* Main.storyboard */,
+				1728EF57244E83AA00E90033 /* SampleSnapshots.xctestplan */,
 				1728EF33244D5CFB00E90033 /* Assets.xcassets */,
 				1728EF35244D5CFB00E90033 /* LaunchScreen.storyboard */,
 				1728EF38244D5CFB00E90033 /* Info.plist */,
