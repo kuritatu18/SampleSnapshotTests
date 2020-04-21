@@ -16,7 +16,7 @@ class SnapshotTestCase: FBSnapshotTestCase {
         super.setUp()
 //        recordMode = ProcessInfo().environment["SNAPSHOT_TEST_RECORD_MODE"] == "true"
         recordMode = true
-        fileNameOptions = [.device, .OS, .screenSize]
+        fileNameOptions = [.device, .OS, .screenSize, .screenScale]
 
         window = UIWindow(frame: UIScreen.main.bounds)
         window.makeKeyAndVisible()
@@ -24,8 +24,14 @@ class SnapshotTestCase: FBSnapshotTestCase {
 }
 
 extension SnapshotTestCase {
-    func verifyView(_ view: UIView) {
-        let language = Locale.preferredLanguages.first
-        FBSnapshotVerifyView(view, identifier: language)
+    func verifyView(_ view: UIView, identifier: String? = nil) {
+        let language = Locale.preferredLanguages.first ?? ""
+        let customIdentifier: String
+        if let identifier = identifier {
+            customIdentifier = identifier + "_" + language
+        } else {
+            customIdentifier = language
+        }
+        FBSnapshotVerifyView(view, identifier: customIdentifier)
     }
 }

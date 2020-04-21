@@ -21,6 +21,6 @@ class ViewControllerTests: SnapshotTestCase {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "ViewController")
         vc.view.backgroundColor = UIColor.red
-        verifyView(vc.view)
+        verifyView(vc.view, identifier: "背景が赤い")
     }
 }
