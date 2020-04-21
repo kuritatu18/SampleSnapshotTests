@@ -4,25 +4,17 @@ PODS:
   - iOSSnapshotTestCase/Core (6.2.0)
   - iOSSnapshotTestCase/SwiftSupport (6.2.0):
     - iOSSnapshotTestCase/Core
-  - Nimble (8.0.7)
-  - Quick (2.2.0)
 
 DEPENDENCIES:
   - iOSSnapshotTestCase
-  - Nimble
-  - Quick
 
 SPEC REPOS:
   https://cdn.cocoapods.org/:
     - iOSSnapshotTestCase
-    - Nimble
-    - Quick
 
 SPEC CHECKSUMS:
   iOSSnapshotTestCase: 9ab44cb5aa62b84d31847f40680112e15ec579a6
-  Nimble: a73af6ecd4c9106f434f3d55fc54570be3739e0b
-  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
 
-PODFILE CHECKSUM: 35d04e741974bfb3c47edbe26d6c7b8b61830c61
+PODFILE CHECKSUM: ba4de5d4ea6dec945fcace1e2974ed70de1cf4d3
 
 COCOAPODS: 1.8.4

@@ -10,8 +10,6 @@ target 'SampleSnapshots' do
   target 'SampleSnapshotsTests' do
     inherit! :search_paths
     pod 'iOSSnapshotTestCase'
-    pod 'Quick'
-    pod 'Nimble'
   end
 
 end
