@@ -11,16 +11,16 @@ import FBSnapshotTestCase
 import UIKit
 
 class ViewControllerTests: SnapshotTestCase {
-    func testDashboardSnapshot() {
+    func testViewController() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "ViewController")
-        FBSnapshotVerifyView(vc.view)
+        verifyView(vc.view)
     }
 
-    func testDashboardSnapshot2() {
+    func testViewControllerRed() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "ViewController")
         vc.view.backgroundColor = UIColor.red
-        FBSnapshotVerifyView(vc.view)
+        verifyView(vc.view)
     }
 }
